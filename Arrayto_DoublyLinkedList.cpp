@@ -9,7 +9,7 @@ class Node{
     Node* next;
     
     Node(Node* prev1,int data1,Node* next1){
-        prev=prev;
+        prev=prev1;
         data=data1;
         next=next1;
     }
